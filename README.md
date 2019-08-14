@@ -6,7 +6,7 @@ Sparkify's growth has led to a significant increase in the size of its user base
 
 ### Schema
 
-The schema for the transformed data stored in parquet files is a star schema. This schema allows the central unit of measurement, songplays, to be stored in a central fact table that also contains references to the context for each songplay event. Seperate dimension tables that haven't been normalised are then created to provide additional information in relation to the references in the fact table. The star schema is easy to understand and its denormalised structure should improve the perfomance of read queries.
+The schema for the transformed data stored in parquet files is a star schema. This schema allows the central unit of measurement, songplays, to be stored in a central fact table that also contains references to the context for each songplay event. Seperate dimension tables that haven't been normalised are then created to provide additional information in relation to the references in the fact table. The star schema is easy to understand and its denormalised structure should improve the performance of read queries.
 
 ### Files
 
